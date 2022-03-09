@@ -1,0 +1,30 @@
+/*global style*/
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 0px 15px 0px 15px ;
+    @media #{$minSmall} {
+        width: 750px;
+    }
+    @media #{$minMedium} {
+        width: 970px;
+    }
+    @media #{$minLarge} {
+        width: 1170px;
+    }
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*global style*/
